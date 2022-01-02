@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
         //val queue = Volley.newRequestQueue(this)
         val url =
-            "https://newsapi.org/v2/everything?q=tesla&from=2021-12-02&sortBy=publishedAt&apiKey=18c9a3b91fd64e7aa03fdd4a00894489"
+            "https://newsapi.org/v2/everything?q=tesla&from=2021-12-02&sortBy=publishedAt&apiKey=<your api key>"
         val jsonObjectRequest = object : JsonObjectRequest(
             Request.Method.GET,
             url,
